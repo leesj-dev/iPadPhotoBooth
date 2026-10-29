@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleDisplayName</key><string>의림제 포토부스</string>
+  <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+  <key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+  <key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.2.0</string>
+  <key>CFBundleVersion</key><string>11</string>
+  <key>LSRequiresIPhoneOS</key><true/>
+  <key>NSCameraUsageDescription</key><string>USB로 연결한 Sony 카메라를 제어하고 촬영합니다.</string>
+  <key>NSPhotoLibraryUsageDescription</key><string>연결한 카메라의 촬영 JPEG를 iPad로 가져와 사진을 합성합니다. 사진 보관함에는 저장하지 않습니다.</string>
+  <key>NSLocalNetworkUsageDescription</key><string>같은 네트워크의 AirPrint 지원 프린터를 찾아 사진을 인쇄합니다.</string>
+  <key>NSBonjourServices</key><array><string>_ipp._tcp</string><string>_ipps._tcp</string></array>
+  <key>UIApplicationSceneManifest</key><dict><key>UIApplicationSupportsMultipleScenes</key><false/></dict>
+  <key>UILaunchScreen</key><dict/>
+  <key>UISupportedInterfaceOrientations~ipad</key><array>
+    <string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string>
+    <string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationPortraitUpsideDown</string>
+  </array>
+  <key>UIRequiredDeviceCapabilities</key><array><string>arm64</string></array>
+</dict></plist>

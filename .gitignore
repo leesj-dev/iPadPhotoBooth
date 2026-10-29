@@ -1,0 +1,9 @@
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Per-machine development signing
+Config/Signing.local.xcconfig
+.swiftpm/
